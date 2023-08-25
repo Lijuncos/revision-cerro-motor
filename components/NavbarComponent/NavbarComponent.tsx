@@ -25,8 +25,11 @@ export default function NavbarComponent({
 }: Props) {
     const [isActive, setIsActive] = useState('');
 
-    const url = window.location.href;
-    console.log(url);
+    if (typeof window !== 'undefined') {
+
+        const url = window.location.href;
+        console.log(url);
+    }
 
     return (
         <ScrollLayoutComponent>
