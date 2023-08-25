@@ -1,0 +1,24 @@
+export default function LogisticaPage(){
+    return(
+        <div>
+            logistica
+            <br></br>
+            logistica
+            <br></br>
+            logistica
+            <br></br>
+            logistica
+            <br></br>
+            logistica
+            <br></br>
+            logistica
+            <br></br>
+            logistica
+            <br></br>
+            logistica
+            <br></br>
+            logistica
+            <br></br>
+        </div>
+    )
+}

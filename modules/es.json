@@ -1,0 +1,298 @@
+{
+    "navbar": {
+        "logo": {
+            "imgSrc": "/assets/img/logos/Logo-Cerro.webp",
+            "imgAlt": "Logo cerro"
+        },
+        "navigation": [
+            {
+                "title_id": "title-1",
+                "title": "Home",
+                "link": "/"
+            },
+            {
+                "title_id": "title-2",
+                "title": "Inventario",
+                "link": "/inventario"
+            },
+            {
+                "title_id": "title-3",
+                "title": "Stock",
+                "link": "/stock"
+            },
+            {
+                "title_id": "title-4",
+                "title": "Logística",
+                "link": "/logistica"
+            },
+            {
+                "title_id": "title-5",
+                "title": "Nosotros",
+                "link": "/nosotros"
+            },
+            {
+                "title_id": "title-6",
+                "title": "Contacto",
+                "link": "/contacto"
+            }
+        ]
+    },
+    "banner": {
+        "title": "¿Estás listo para la aventura?",
+        "description": "“Viajar sirve para ajustar la imaginación a la realidad, y para ver las cosas como son en vez de pensar cómo serán”",
+        "secondDescription": "Samuel Johnson",
+        "image": {
+            "img_id": 2,
+            "imgSrc": "/assets/img/banner/Header-Cerro.webp",
+            "imgAlt": "Imagen banner"
+        }
+    },
+    "categories": {
+        "title": "¿Qué es lo que necesitas para comenzar?",
+        "cards": [
+            {
+                "card_id": 1,
+                "title": "Motocicletas",
+                "imgSrc": "/assets/img/categories/Motocicletas.webp",
+                "imgAlt": "Categoría Motocicletas"
+            },
+            {
+                "card_id": 2,
+                "title": "Lanchas",
+                "imgSrc": "/assets/img/categories/Lanchas.webp",
+                "imgAlt": "Categoría Lanchas"
+            },
+            {
+                "card_id": 3,
+                "title": "Autos y Cuatriciclos",
+                "imgSrc": "/assets/img/categories/Autos-y-Cuatriciclos.webp",
+                "imgAlt": "Categoría Autos y Cuatriciclos"
+            },
+            {
+                "card_id": 4,
+                "title": "Accesorios",
+                "imgSrc": "/assets/img/categories/Accesorios.webp",
+                "imgAlt": "Categoría Accesorios"
+            }
+        ]
+    },
+    "cards": [
+        {
+            "card_id": 1,
+            "title": "titulo-1",
+            "imgSrc": "/assets/img/cards/2.webp",
+            "imgAlt": "imagen 1",
+            "btnTitle": "Ver detalle"
+        },
+        {
+            "card_id": 2,
+            "title": "titulo-2",
+            "imgSrc": "/assets/img/cards/3.webp",
+            "imgAlt": "imagen 2",
+            "btnTitle": "Ver detalle"
+        },
+        {
+            "card_id": 3,
+            "title": "titulo-3",
+            "imgSrc": "/assets/img/cards/4.webp",
+            "imgAlt": "imagen 3",
+            "btnTitle": "Ver detalle"
+        },
+        {
+            "card_id": 4,
+            "title": "titulo-4",
+            "imgSrc": "/assets/img/cards/5.webp",
+            "imgAlt": "imagen 4",
+            "btnTitle": "Ver detalle"
+        },
+        {
+            "card_id": 5,
+            "title": "titulo-5",
+            "imgSrc": "/assets/img/cards/6.webp",
+            "imgAlt": "imagen 5",
+            "btnTitle": "Ver detalle"
+        }
+    ],
+    "partners": {
+        "logos": [
+            {
+                "img_id": 1,
+                "imgSrc": "/assets/img/logos/Logo-Cerro-Group.webp",
+                "imgAlt": "Logo cerro group"
+            },
+            {
+                "img_id": 2,
+                "imgSrc": "/assets/img/logos/Logo-Alexandria.webp",
+                "imgAlt": "Logo alexandria"
+            },
+            {
+                "img_id": 3,
+                "imgSrc": "/assets/img/logos/Logo-Freight.webp",
+                "imgAlt": "Logo freight"
+            },
+            {
+                "img_id": 4,
+                "imgSrc": "/assets/img/logos/Logo-Ecolaundry.webp",
+                "imgAlt": "Logo ecolaundry"
+            },
+            {
+                "img_id": 5,
+                "imgSrc": "/assets/img/logos/Logo-Almundo.webp",
+                "imgAlt": "Logo almundo"
+            }
+        ]
+    },
+    "contact": {
+        "title": {
+            "text": "Formulario de contacto",
+            "svgSrc": "/assets/svg/contact/title.svg"
+        },
+        "fields": {
+            "labels": [
+                {
+                    "text": "Nombre",
+                    "value": "name",
+                    "placeholder": "Escriba aquí..."
+                },
+                {
+                    "text": "Apellido",
+                    "value": "lastname",
+                    "placeholder": "Escriba aquí..."
+                },
+                {
+                    "text": "Teléfono",
+                    "value": "number",
+                    "placeholder": "Escriba aquí..."
+                },
+                {
+                    "text": "E-mail",
+                    "value": "email",
+                    "placeholder": "Escriba aquí..."
+                }
+            ]
+        },
+        "checkSelect": {
+            "title": "Selecciona todos los temas que desees",
+            "icon": {
+                "imgSrc": "/assets/svg/contact/check.svg",
+                "imgAlt": "Check seleccionado"
+            },
+            "checks": [
+                {
+                    "id": "motocicletas",
+                    "label": "Motocicletas"
+                },
+                {
+                    "id": "lanchas",
+                    "label": "Lanchas"
+                },
+                {
+                    "id": "autos",
+                    "label": "Autos"
+                },
+                {
+                    "id": "cuatriciclos",
+                    "label": "Cuatriciclos"
+                },
+                {
+                    "id": "accesorios",
+                    "label": "Accesorios"
+                },
+                {
+                    "id": "otros",
+                    "label": "Otros"
+                }
+            ]
+        },
+        "message": "Consulta",
+        "placeholder": "Escriba aquí...",
+        "sendButton": "Enviar mensaje"
+    },
+    "whatsapp": {
+        "text": "Si tenes dudas, podés comunicarte con nosotros de forma rápida a través de nuestro Whatsapp",
+        "phone": "1234567890",
+        "btn": {
+            "icon": {
+                "svgSrc": "/assets/svg/logo-whatsapp.svg",
+                "svgAlt": "Logo whatsapp"
+            },
+            "text": "¡Haz click aquí!"
+        }
+    },
+    "footer": {
+        "logo": {
+            "imgSrc": "/assets/img/logos/Logo-Cerro.webp",
+            "imgAlt": "Logo cerro"
+        },
+        "categories": [
+            {
+                "id": 1,
+                "title": "Motocicletas",
+                "link": "motocicletas"
+            },
+            {
+                "id": 2,
+                "title": "Lanchas",
+                "link": "lanchas"
+            },
+            {
+                "id": 3,
+                "title": "Autos y Cuatriciclos",
+                "link": "autos"
+            },
+            {
+                "id": 4,
+                "title": "Accesorios",
+                "link": "accesorios"
+            }
+        ],
+        "store": {
+            "title": "Visita nuestra tienda",
+            "logo": {
+                "imgSrc": "/assets/img/logos/Logo-Store.webp",
+                "imgAlt": "Logo Nuestra tienda",
+                "link": "https://www.mercadolibre.com.ar/"
+            }
+        },
+        "copyright": "© 2023 CERRO MOTOR | Diseño y desarrollo por 25Watts | Todos los derechos reservados"
+    },
+    "brands": {
+        "images": [
+            {
+                "img_id": 1,
+                "imgSrc": "/assets/img/brands/BMW.webp",
+                "imgAlt": "BMW"
+            },
+            {
+                "img_id": 2,
+                "imgSrc": "/assets/img/brands/Honda.webp",
+                "imgAlt": "Honda"
+            },
+            {
+                "img_id": 3,
+                "imgSrc": "/assets/img/brands/SE.webp",
+                "imgAlt": "Sen"
+            },
+            {
+                "img_id": 4,
+                "imgSrc": "/assets/img/brands/AT.webp",
+                "imgAlt": "Africa"
+            },
+            {
+                "img_id": 5,
+                "imgSrc": "/assets/img/brands/BRP.webp",
+                "imgAlt": "Brṕ"
+            },
+            {
+                "img_id": 6,
+                "imgSrc": "/assets/img/brands/SK.webp",
+                "imgAlt": "Ski"
+            },
+            {
+                "img_id": 7,
+                "imgSrc": "/assets/img/brands/CM.webp",
+                "imgAlt": "Can-am"
+            }
+        ]
+    }
+}

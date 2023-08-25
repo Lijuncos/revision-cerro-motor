@@ -1,0 +1,134 @@
+:root {
+  /*fonts family*/
+  --fallback-font: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-primary: 'Open Sans', sans-serif;
+  /* fonts sizes */
+  --font-big: 2.5rem;
+  --font-large: 2rem;
+  --font-xmedium: 1.5rem;
+  --font-medium: 1.125rem;
+  --font-xsmall: 1rem;
+  --font-small: 0.875rem;
+  /* fonts weight */
+  --font-regular: 400;
+  --font-bold: 700;
+  /* colors */
+  --primary-color: #ffffff;
+  --secondary-color: #F5DBAA;
+  --tertiary-color: #000000;
+  --placeholder-color: #8D8D8D;
+  --primary-gradiant-color: #424242;
+  --secondary-gradiant-color: #DBAE8B;
+  --tertiary-gradiant-color: #D9D9D9;
+  /* hover */
+  --brand-card-hover: #B09664;
+  /* background */
+  --bg-body-color: #1B1514;
+  --bg-color-blur-cards: rgba(66, 66, 66, 0.4);
+  --bg-footer-color: #221F1E;
+  --bg-upperLeft-to-lowerRight: linear-gradient(to top left, var(--primary-gradiant-color) 100%, var(--primary-gradiant-color) 0%);
+  --bg-lowerLeft-to-upperRight: linear-gradient(to right top, var(--secondary-gradiant-color) 100%, var(--tertiary-gradiant-color) 0%);
+  --bg-upperRight-to-lowerLeft: linear-gradient(to left bottom, var(--secondary-gradiant-color) 100%, var(--tertiary-gradiant-color) 0%);
+  --backdrop-blur-filter: blur(4px);
+  /* --bg-blur-color: rgba(0, 0, 0, 0.1); */
+  /* border */
+  --border-weight: 0.065rem;
+  /* border radius */
+  --border-radius: 0.5rem;
+  /* wrapper */
+  --wrapper-large: calc(100vw - 7rem);
+  --wrapper-medium: calc(100vw - 5rem);
+  --wrapper-small: calc(100vw - 3rem);
+  --wrapper-tiny: calc(100vw - 1.5rem);
+  --wrapper-gap: 7.5rem;
+  /* scrollbar */
+  --scrollbar-width: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-height: 100%;
+  min-width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  margin: 0px;
+  padding: 0px;
+
+  background: var(--bg-body-color);
+
+  color: var(--primary-color);
+  font-family: var(--font-primary), var(--fallback-font);
+  font-size: calc(14px + (20.56 - 14) * ((100vw - 280px) / (3840 - 280)));
+  font-weight: var(--font-regular);
+  position: absolute;
+
+  scrollbar-width: thin;
+  /* alto footer 20rem + gap de page 5rem + padding-top 5rem*/
+  padding-bottom: 25rem;
+}
+
+@media (max-width: 992px) {
+  body {
+    padding-bottom: 26rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-bottom: 32rem;
+  }
+}
+
+@media (max-width: 442px) {
+  body {
+    padding-bottom: 38rem;
+  }
+}
+
+
+@media (max-width: 350px) {
+  body {
+    padding-bottom: 40rem;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small,
+strong,
+span,
+a {
+  font-family: var(--font-primary), var(--fallback-font);
+}

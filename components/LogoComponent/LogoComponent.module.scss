@@ -1,0 +1,12 @@
+.container-outer-image {
+    position: relative;
+    height: 4.5rem;
+    width: 10rem;
+    user-select: none;
+    
+
+    * {
+        pointer-events: none;
+    }
+
+}

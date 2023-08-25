@@ -1,0 +1,24 @@
+export default function ContactoPage(){
+    return(
+        <div>
+            contacto
+            <br></br>
+            contacto
+            <br></br>
+            contacto
+            <br></br>
+            contacto
+            <br></br>
+            contacto
+            <br></br>
+            contacto
+            <br></br>
+            contacto
+            <br></br>
+            contacto
+            <br></br>
+            contacto
+            <br></br>
+        </div>
+    )
+}

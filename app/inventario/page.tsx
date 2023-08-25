@@ -1,0 +1,24 @@
+export default function InventarioPage(){
+    return(
+        <div>
+            inventario
+            <br></br>
+            inventario
+            <br></br>
+            inventario
+            <br></br>
+            inventario
+            <br></br>
+            inventario
+            <br></br>
+            inventario
+            <br></br>
+            inventario
+            <br></br>
+            inventario
+            <br></br>
+            inventario
+            <br></br>
+        </div>
+    )
+}

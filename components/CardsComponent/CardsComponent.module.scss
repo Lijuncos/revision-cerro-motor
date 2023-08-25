@@ -1,0 +1,67 @@
+    .container-info-card {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        background-color: #595959;
+        padding: 1.7rem 1.5rem;
+
+        @media (max-width:600px) {
+            margin-top: -75px;
+        }
+
+        .container-outer-card-image {
+            position: relative;
+            min-height: 20rem;
+            max-height: 20rem;
+            min-width: 30vw;
+            max-width: 30vw;
+            border-radius: 0.4rem;
+            overflow: hidden;
+
+            @media (max-width:992px) {
+                min-width: 35vw;
+                max-width: 35vw;
+            }
+
+            @media (max-width:768px) {
+                min-width: 40vw;
+                max-width: 40vw;
+                min-height: 40vw;
+                max-height: 40vw;
+            }
+
+            // @media (max-width:600px) {
+            //     min-height: 15rem;
+            //     max-height: 15rem;
+            //     min-width: 12.5rem;
+            //     max-width: 12.5rem;
+            // }
+
+            // @media (max-width:470px) {
+            //     min-height: 12.5rem;
+            //     max-height: 12.5rem;
+            // }
+
+            // @media (max-width:350px) {
+            //     min-height: 10rem;
+            //     max-height: 10rem;
+            //     min-width: 10rem;
+            //     max-width: 10rem;
+            // }
+        }
+
+        .card-title {
+            font-weight: var(--font-bold);
+            font-size: var(--font-medium);
+        }
+
+        .btn-title {
+            border: none;
+            border-radius: 0.4rem;
+            background-color: #F5DBAA;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-weight: var(--font-regular);
+            font-size: var(--font-small);
+        }
+    }

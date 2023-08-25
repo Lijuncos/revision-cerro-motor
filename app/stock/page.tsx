@@ -1,0 +1,24 @@
+export default function StockPage(){
+    return(
+        <div>
+            stock
+            <br></br>
+            stock
+            <br></br>
+            stock
+            <br></br>
+            stock
+            <br></br>
+            stock
+            <br></br>
+            stock
+            <br></br>
+            stock
+            <br></br>
+            stock
+            <br></br>
+            stock
+            <br></br>
+        </div>
+    )
+}

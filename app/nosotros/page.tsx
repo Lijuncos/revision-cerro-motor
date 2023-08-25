@@ -1,0 +1,24 @@
+export default function NosotrosPage(){
+    return(
+        <div>
+            NOSOTROS
+            <br></br>
+            NOSOTROS
+            <br></br>
+            NOSOTROS
+            <br></br>
+            NOSOTROS
+            <br></br>
+            NOSOTROS
+            <br></br>
+            NOSOTROS
+            <br></br>
+            NOSOTROS
+            <br></br>
+            NOSOTROS
+            <br></br>
+            NOSOTROS
+            <br></br>
+        </div>
+    )
+}
